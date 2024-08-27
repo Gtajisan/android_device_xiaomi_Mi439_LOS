@@ -22,6 +22,32 @@ PRODUCT_PACKAGES += \
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
+# Maintainer Name
+INFINITY_MAINTAINER := "INFINITY-X-FARHAN" 
+
+# Whether the package supports BLURS
+TARGET_SUPPORTS_BLUR := false
+
+# Whether the device supports UDFPS (FOD)
+TARGET_HAS_UDFPS := false
+
+# Whether the compiled package ships Google Apps:
+WITH_GAPPS := true
+
+# Whether the compiled shipped gapps package uses Google Dialer, Messaging, Contacts:
+TARGET_BUILD_GOOGLE_TELEPHONY := true
+
+# Whether the device supports screen off touchgestures:
+TARGET_SUPPORTS_TOUCHGESTURES := false
+
+# Whether the compiled package ships ViMusic
+TARGET_BUILD_VIMUSIC := true
+
+# Whether the compiled package ships Moto Calculator irrespective VANILLA or GAPPS:
+USE_MOTO_CALCULATOR := false
+ROM_FOLDER := infinity
+
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := Mi439
 PRODUCT_NAME := infinity_Mi439
