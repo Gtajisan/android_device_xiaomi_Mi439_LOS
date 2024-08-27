@@ -117,3 +117,6 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Inherit from the proprietary version
 include vendor/xiaomi/Mi439/BoardConfigVendor.mk
+
+# Missing Required Module
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
